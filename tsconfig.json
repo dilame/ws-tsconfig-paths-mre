@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "es5",
+    "sourceMap": true,
+    "paths": {
+      "@app/a/*": ["a/*"]
+    },
+    "baseUrl": "./",
+    "outDir": "./dist"
+  },
+  "exclude": [
+    "node_modules"
+  ],
+}
